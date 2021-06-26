@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprint 2</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/f0e48a6f3c.js" crossorigin="anonymous"></script>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="css-form.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="pseudo-class.css" rel="stylesheet" type="text/css" /> -->
+  </head>
+  <body>
 
 
-</head>
-<body>
-    <figure>
-        <img src="https://cdn.pixabay.com/photo/2016/10/18/21/22/beach-1751455_960_720.jpg" alt="praia em preto e branco">
-        <figurecaption>Praia em preto e branco</figurecaption>
-    </figure>
-</body>
+
+      <div class="form">
+    	<h1>Contato</h1>
+
+    	<form>
+	    	<label for="nome" class="hidden-model">Nome completo</label>
+	    	<input type="text" name="" class="input-model" placeholder="Nome completo" required>
+	    	
+	    	<label for="email" class="hidden-model">email</label>
+	    	<input type="email" name="" class="input-model" placeholder="E-mail" required>
+	    	
+	    	<label for="telefone" class="hidden-model">Telefone</label>
+	    	<input type="tel" name="" class="input-model" placeholder="Telefone" required>
+	    	
+	    	<label for="Mensgaem" class="hidden-model">Mensagem</label>
+	    	<textarea placeholder="Mesagem" class="input-model"></textarea>
+	    	<input type="submit" value="Enviar">
+    	</form>
+    </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
 </html>
