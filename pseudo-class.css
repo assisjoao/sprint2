@@ -1,0 +1,14 @@
+input:hover::placeholder, textarea:hover::placeholder {
+    padding-left: 10px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+/* textarea:hover::placeholder {
+    padding-left: 10px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+} */
+
