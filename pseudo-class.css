@@ -5,10 +5,7 @@ input:hover::placeholder, textarea:hover::placeholder {
     transition: all 0.4s;
 }
 
-/* textarea:hover::placeholder {
-    padding-left: 10px;
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
+input:focus::placeholder, textarea:focus::placeholder {
+    opacity: 0;
     transition: all 0.4s;
-} */
-
+}
